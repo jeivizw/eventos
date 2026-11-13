@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EventCraft</string>
+    <string name="title_activity_main">EventCraft</string>
+    <string name="package_name">com.eventcraft.app</string>
+    <string name="custom_url_scheme">com.eventcraft.app</string>
+</resources>
