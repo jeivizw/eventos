@@ -1,41 +1,28 @@
-# 🎟️ EventCraft
+# EventCraft
 
-**Organizador e Check-in de Ingressos para Eventos**
+Aplicativo mobile minimalista para gestão de eventos e controle de acesso (check-in), desenvolvido com **React**, **Vite** e **Capacitor** para Android. Projetado com uma interface de alto contraste em preto, branco e vermelho (`#000000`, `#FFFFFF`, `#E60000`).
 
-O **EventCraft** é um aplicativo mobile desenvolvido para facilitar a vida de produtores de eventos. Com ele, é possível gerenciar listas de participantes e realizar o check-in rápido de ingressos diretamente na portaria através de dispositivos Android.
+## Funcionalidades
 
-## 📱 Funcionalidades
-- Controle e listagem de eventos.
-- Validação rápida de ingressos e check-in.
-- Interface amigável e "Safe Zones" adaptadas para diferentes resoluções.
+- **Seleção de Eventos:** Alternância rápida entre eventos ativos com métricas individuais.
+- **Dashboard em Tempo Real:** Acompanhamento percentual e numérico de participantes credenciados.
+- **Leitor de QR Code:** Validação instantânea de ingressos pela câmera com feedback visual imediato.
+- **Busca de Participantes:** Pesquisa rápida por nome ou código para check-in manual.
 
-## 🚀 Tecnologias Utilizadas
-- **React.js** (Interface de Usuário)
-- **Capacitor** (Empacotamento Nativo Mobile)
-- **@capacitor/assets** (Geração automática de Ícone e Splash Screen)
-- **GitHub Actions** (CI/CD para geração automática do APK na nuvem)
+## Capturas de Tela
 
-## 📸 Capturas de Tela
-> **Nota para o aluno:** Arraste as fotos que você tirou do emulador/celular para cá.
-> 
-> *Ícone do EventCraft na grade de aplicativos:*
-> ![Grade de Apps](./caminho-para-sua-foto-da-grade.jpg)
-> 
-> *Tela Inicial / Splash Screen:*
-> ![Splash Screen](./caminho-para-sua-foto-da-splash.jpg)
+| Ícone no Android
+| :---: | :---: | :---: | :---: |
+| <img src="./assets/home-icon.png" width="180" alt="Ícone EventCraft na tela inicial"> ||
 
-## 🛠️ Como rodar o projeto localmente
-1. Clone este repositório.
-2. Instale as dependências:
+## Tecnologias Utilizadas
+
+- **Frontend:** React, Vite, Tailwind CSS, Lucide Icons
+- **Mobile / Nativo:** Capacitor 7 (Android)
+- **CI/CD:** GitHub Actions (build automatizado de APK)
+
+## Como Executar Localmente
+
+1. **Instale as dependências:**
    ```bash
    npm install
-   ```
-3. Faça o build do projeto web:
-   ```bash
-   npm run build
-   ```
-4. Sincronize com o Android e abra no Android Studio:
-   ```bash
-   npx cap sync android
-   npx cap open android
-   ```
