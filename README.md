@@ -12,7 +12,6 @@ Aplicativo mobile minimalista para gestão de eventos e controle de acesso (chec
 ## Capturas de Tela
 
 | Ícone no Android
-| :---: | :---: | :---: | :---: |
 | <img src="./assets/home-icon.png" width="180" alt="Ícone EventCraft na tela inicial"> ||
 
 ## Tecnologias Utilizadas
